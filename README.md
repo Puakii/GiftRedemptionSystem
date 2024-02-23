@@ -9,7 +9,7 @@
  - Using addRedemption(), we can add new redemption, we first find the team that the representative is from, and check if that team has already redeemed before, and if not, we add new redemption record into our redemption data, and update our redemption data file and return true.
 
 ### index.ts
- - I have decided to use ExpressJS to create an API, where we can make use of the API to perform each task.
+ - I have decided to use ExpressJS to create an API, where we can make use of the API to perform each task. In addition, I have saved all past redemptions as a JSON file so that we always have the list of past redemptions even if the application is restarted.
 
 ### Running the code
 - To run the code, you can type `npx ts-node src/index.ts` to start.
